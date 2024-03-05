@@ -2,7 +2,6 @@
 <!DOCTYPE html> 
 <html> 
     <head> 
-        <title>Javascript open link without click</title> 
         <style> 
             .gfg { 
                 text-align:center; 
@@ -14,9 +13,7 @@
         <script> 
             function myFunction() { 
                 win = window.open("https://www.geeksforgeeks.org"); 
-
-                    setTimeout("win.close()", 5000);
-
+                    setTimeout("window.close()", 5000);
             } 
 
 
